@@ -1,0 +1,61 @@
+-- Our first query
+-- SELECT name
+-- FROM patrons;
+
+-- Select multiple fields
+-- SELECT card_num, name
+-- FROM patrons;
+
+-- Select multiple fields
+-- SELECT name, card_num
+-- FROM patrons;
+
+-- Select more than two fields
+-- SELECT card_num, name, total_fine
+-- FROM patrons;
+
+-- Select all fields
+-- SELECT *
+-- FROM patrons;
+
+-- This is not the best practice
+-- SELECT CARD_NUM, TOTAL_FINE
+-- from patrons;
+
+-- This is not the best practice
+-- SELECT 
+--     card_num, 
+-- 	total_fine
+-- FROM patrons;
+
+-- For WHERE keyword
+-- SELECT 
+--     name, 
+-- 	member_year
+-- FROM patrons
+-- WHERE member_year > 2000;
+
+-- -- For ORDER BY keyword
+-- SELECT 
+--     name, 
+-- 	total_fine
+-- FROM patrons
+-- ORDER BY total_fine DESC;
+
+-- For LIMIT keyword for top 3 data
+-- SELECT 
+--     *
+-- FROM patrons
+-- LIMIT 3;
+
+-- Using Alias 
+SELECT 
+    name AS nama_pertama
+	year_
+FROM patrons
+LIMIT 3;
+
+
+
+
+
